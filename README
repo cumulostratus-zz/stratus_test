@@ -11,3 +11,18 @@ smallest number of characters within a single line, though, within written files
 that is, within files, which are not fundamental to the operation of the kernel, as
 well as within comments, the general rule holds, that lines should, at least, reach
 eighty characters.
+
+All parts, both files and directories, which comprise some facet of the kernel,
+shall, according to their purpose therefore, be named explicity and concisely. If a
+single title cannot easily be applied to a certain file or directory, then the
+responsibility rests upon the author, either to move the contents of that file or of
+that directory under two or more separate heads, or otherwise to endeavor to better
+unite the contents therein. If the title of one of the aforementioned parts require,
+that two or more separate words be used to describe the contents of whatever part to
+which this file is dedicated, then the author, again using his own intuition, shall
+take it upon himself to concatenate these words with the appropriate number of
+underscores.
+
+All files, which are fundamental to the operation of the kernel, shall contain, as
+their primary portion, a comment, which concisely underlines the purpose of that file
+within the kernel itself.
