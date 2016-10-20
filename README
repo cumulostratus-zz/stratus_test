@@ -1,1 +1,13 @@
 	Stratus kernel test repository.
+
+Article I. Clause I. The Creation and Organization of Files in the Test Repository
+
+All files, which comprise some facet of the kernel, shall, in no manner, contain
+trailing whitespaces, or otherwise, either by whatever accident or purpose, contain
+excessive or unnecessary whitespaces. All lines, in addition, which comprise the
+heretofore addressed files, shall, under no condition, hold more than eighty-five
+characters under their expanses; there is, however, no formal rule adjudging the
+smallest number of characters within a single line, though, within written files,
+that is, within files, which are not fundamental to the operation of the kernel, as
+well as within comments, the general rule holds, that lines should, at least, reach
+eighty characters.
